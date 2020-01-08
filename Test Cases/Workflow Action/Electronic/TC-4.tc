@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Electronic Outgoing from Simple Add then Launch it from quick action after that approve then Export and Quick Receive it from incoming mail</description>
+   <name>TC-4</name>
+   <tag>18991</tag>
+   <comment></comment>
+   <testCaseGuid>6ede0a1c-0783-4adc-ac11-e0767537fff6</testCaseGuid>
+</TestCaseEntity>

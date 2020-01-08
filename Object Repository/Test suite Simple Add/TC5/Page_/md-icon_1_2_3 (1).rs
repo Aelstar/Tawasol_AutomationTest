@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_1_2_3 (1)</name>
+   <tag></tag>
+   <elementGuidId>c628ff89-509b-4d6a-b05e-255871163450</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>//md-dialog-content[@id='dialogContent_329']/div/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[5]/div/button[4]/md-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html//md-dialog[@role='dialog']/md-dialog-content//manage-attachment-directive//md-card[@class='_md']/md-table-container/table/tbody/tr[@class='md-row']/td[5]/div/button[4]/md-icon[@role='img']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-svg-icon</name>
+      <type>Main</type>
+      <value>delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialogContent_343&quot;)/div[@class=&quot;md-dialog-content cms-dialog-content&quot;]/manage-attachment-directive[1]/div[@class=&quot;layout-column&quot;]/md-card[@class=&quot;_md&quot;]/md-table-container[1]/table[@class=&quot;ng-pristine ng-untouched ng-valid md-table ng-not-empty md-row-select&quot;]/tbody[@class=&quot;md-body&quot;]/tr[@class=&quot;md-row&quot;]/td[@class=&quot;md-cell&quot;]/div[@class=&quot;layout-align-start-center layout-row flex&quot;]/button[@class=&quot;md-icon-button md-button md-ink-ripple&quot;]/md-icon[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-dialog-content[@id='dialogContent_343']/div/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[5]/div/button[4]/md-icon</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عادي'])[5]/following::md-icon[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='صورر'])[1]/following::md-icon[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحة:'])[1]/preceding::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عدد الصفوف بالصفحة:'])[1]/preceding::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/md-icon</value>
+   </webElementXpaths>
+</WebElementEntity>

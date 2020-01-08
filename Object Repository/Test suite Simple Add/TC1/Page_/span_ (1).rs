@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ (1)</name>
+   <tag></tag>
+   <elementGuidId>e5e155b1-6f34-4a97-91d2-4937fb172502</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>md-virtual-repeat-container.md-virtual-repeat-container.md-autocomplete-suggestions-container.md-whiteframe-z1.md-orient-vertical.ng-hide div.md-virtual-repeat-scroller div.md-virtual-repeat-offsetter ul.md-autocomplete-suggestions li:nth-child(1) md-autocomplete-parent-scope:nth-child(1) span:nth-child(1) > span.highlight</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'إدارة تكنولوجيا المعلومات' or . = 'إدارة تكنولوجيا المعلومات')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/md-virtual-repeat-container[1]/div[1]/div[2]/ul[1]/li[1]/md-autocomplete-parent-scope[1]/span[1]/span[1]
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-highlight-text</name>
+      <type>Main</type>
+      <value>ctrl.searchText</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-highlight-flags</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>إدارة تكنولوجيا المعلومات</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ul-273&quot;)/li[1]/md-autocomplete-parent-scope[1]/span[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='ul-273']/li/md-autocomplete-parent-scope/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'ul-273', '&quot;', ')/li[1]/md-autocomplete-parent-scope[1]/span[1]')])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا يوجد'])[3]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//md-autocomplete-parent-scope/span</value>
+   </webElementXpaths>
+</WebElementEntity>

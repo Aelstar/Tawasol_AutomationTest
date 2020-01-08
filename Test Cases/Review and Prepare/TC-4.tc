@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Paper Outgoing Document then launch it from review Queue and select user from set screen of workflow properties and verify that user appear in selected users of launch screen</description>
+   <name>TC-4</name>
+   <tag>18898</tag>
+   <comment></comment>
+   <testCaseGuid>8e455d01-858c-4749-a09a-0cb4bd34df72</testCaseGuid>
+</TestCaseEntity>

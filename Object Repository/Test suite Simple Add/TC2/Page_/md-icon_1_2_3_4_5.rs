@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_1_2_3_4_5</name>
+   <tag></tag>
+   <elementGuidId>cb9e43e7-221f-4242-9aa6-24902fb98d6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-dialog[@role='dialog']/md-dialog-actions[@class='cms-dialog-actions']/button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-svg-icon</name>
+      <type>Main</type>
+      <value>delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialogContent_415&quot;)/div[@class=&quot;md-dialog-content cms-dialog-content&quot;]/manage-linked-document-directive[1]/div[@class=&quot;layout-column flex&quot;]/div[@class=&quot;layout-row&quot;]/md-card[@class=&quot;_md flex&quot;]/md-table-container[@class=&quot;scrollable-element ps ps--theme_default ps--active-x&quot;]/table[@class=&quot;ng-pristine ng-untouched ng-valid md-table ng-not-empty md-row-select&quot;]/tbody[@class=&quot;md-body&quot;]/tr[@class=&quot;md-row&quot;]/td[@class=&quot;md-cell&quot;]/button[@class=&quot;md-icon-button md-button md-ink-ripple&quot;]/md-icon[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-dialog-content[@id='dialogContent_415']/div/manage-linked-document-directive/div/div[2]/md-card/md-table-container/table/tbody/tr/td[8]/button/md-icon</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سري'])[2]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عاجل'])[2]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحة:'])[1]/preceding::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عدد الصفوف بالصفحة:'])[1]/preceding::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/button/md-icon</value>
+   </webElementXpaths>
+</WebElementEntity>

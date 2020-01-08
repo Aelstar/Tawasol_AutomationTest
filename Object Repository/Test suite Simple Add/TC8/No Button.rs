@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>No Button</name>
+   <tag></tag>
+   <elementGuidId>f22b2e53-c872-4d7e-9dc5-32587fb6167b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body[@class='md-dialog-is-showing']//md-dialog[@role='dialog']//button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

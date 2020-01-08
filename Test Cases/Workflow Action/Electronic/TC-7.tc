@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Electronic Outgoing from Simple Add then save then Launch it after that edit content then approve then Export and check the changes saved and Return it from incoming mail and finally edit after export from returned queue</description>
+   <name>TC-7</name>
+   <tag>19037</tag>
+   <comment></comment>
+   <testCaseGuid>14f58f6e-6fec-4309-92f7-5515e5f9361f</testCaseGuid>
+</TestCaseEntity>

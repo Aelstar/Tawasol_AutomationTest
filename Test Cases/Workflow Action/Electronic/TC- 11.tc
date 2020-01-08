@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing with attachments/linked documents/entities/tags then select approve action then select Edit after approve from Ready to export then check all data appears after that approve it again from Add screen</description>
+   <name>TC- 11</name>
+   <tag>22813</tag>
+   <comment></comment>
+   <testCaseGuid>e78806fc-f232-4114-b2b0-ca6c719d4b5a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing from simple then save then launch after that edit content from user inbox then click on approve then check the changes saved in ready to export/incoming mail</description>
+   <name>TC-10</name>
+   <tag>22850</tag>
+   <comment></comment>
+   <testCaseGuid>bb42bb40-8e40-457d-90f1-1cae2270158d</testCaseGuid>
+</TestCaseEntity>

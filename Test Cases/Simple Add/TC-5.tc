@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing from simple add with attachment(Upload &amp; Drag and drop) and linked document then add multiple sites (CC &amp; Original)and save, launch the doc to user then approve and export to the 3 sites with attachments and linked doc</description>
+   <name>TC-5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03796447-d041-44db-aa38-086be82003f0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open incoming mail of department inbox select multiple document (Not forwarded)and quick receive (receive bulk) and launch document to user / then select another documents and quick receive and verify that its save in review queue</description>
+   <name>TC-9</name>
+   <tag>22251</tag>
+   <comment></comment>
+   <testCaseGuid>dd2f40b1-be25-4b0c-a496-774c803f4e2b</testCaseGuid>
+</TestCaseEntity>

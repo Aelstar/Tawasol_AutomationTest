@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Electronic Outgoing from Simple Add then Launch it from quick action after that Edit Content from user inbox</description>
+   <name>TC-2</name>
+   <tag>18985</tag>
+   <comment></comment>
+   <testCaseGuid>00f3966a-4d81-4600-b220-bccc24d22306</testCaseGuid>
+</TestCaseEntity>

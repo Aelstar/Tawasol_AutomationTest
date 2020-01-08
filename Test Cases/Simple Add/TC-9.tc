@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing document then click on new then add a new one with attachment /linked documents and  check the approve action appears then select it and verify the document appears in Ready to Export with full added data then export it</description>
+   <name>TC-9</name>
+   <tag>22816</tag>
+   <comment></comment>
+   <testCaseGuid>30ce8063-732c-4206-bfcf-88ee1b4e20cb</testCaseGuid>
+</TestCaseEntity>

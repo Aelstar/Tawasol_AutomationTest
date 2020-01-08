@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_1_2_3_4_5_6</name>
+   <tag></tag>
+   <elementGuidId>f8b9f793-8c2f-4acd-8a9d-4d89bc3cf92f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body[@class='md-dialog-is-showing']//md-dialog[@role='dialog']//button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-svg-icon</name>
+      <type>Main</type>
+      <value>dots-vertical</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sub-view-wrapper&quot;)/ui-view[@class=&quot;sub-view layout-column flex&quot;]/div[@class=&quot;page-content flex&quot;]/div[@class=&quot;content layout-column&quot;]/div[@class=&quot;layout-column flex&quot;]/div[@class=&quot;scrollable-element ps ps--theme_default&quot;]/div[@class=&quot;page-padding&quot;]/md-card[@class=&quot;card-overlay _md layout-column md-whiteframe-3dp&quot;]/md-table-container[1]/div[@class=&quot;scrollable-element ps ps--theme_default flex&quot;]/table[@class=&quot;ng-pristine ng-untouched ng-valid md-table md-row-select ng-not-empty&quot;]/tbody[@class=&quot;md-body&quot;]/tr[@class=&quot;md-row&quot;]/td[@class=&quot;md-cell&quot;]/div[@class=&quot;layout-align-start-center&quot;]/grid-actions-directive[1]/md-menu[@class=&quot;md-menu _md&quot;]/button[@class=&quot;md-icon-button md-button md-ink-ripple&quot;]/md-icon[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sub-view-wrapper']/ui-view/div/div[2]/div[2]/div/div/md-card/md-table-container/div/table/tbody/tr/td[8]/div/grid-actions-directive/md-menu/button/md-icon</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='موظف نظم معلومات3'])[3]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عادي'])[2]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test1811-1'])[2]/preceding::md-icon[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='عادي'])[3]/preceding::md-icon[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//md-menu/button/md-icon</value>
+   </webElementXpaths>
+</WebElementEntity>

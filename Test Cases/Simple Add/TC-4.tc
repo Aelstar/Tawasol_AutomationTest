@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Paper Outgoing from Simple add without content then create content from Prepare queue then launch it from review queue</description>
+   <name>TC-4</name>
+   <tag>18936</tag>
+   <comment></comment>
+   <testCaseGuid>05f9b3a1-97b3-4433-afd1-8debfef007ec</testCaseGuid>
+</TestCaseEntity>

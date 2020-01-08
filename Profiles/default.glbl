@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Auto71-1'</initValue>
+      <name>Book_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'داخلية'</initValue>
+      <name>Internal_Corresponding_Site_Type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'تكنولوجيا '</initValue>
+      <name>Internal_Department_Name</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

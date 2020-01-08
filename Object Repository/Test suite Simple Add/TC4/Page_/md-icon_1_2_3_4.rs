@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_1_2_3_4</name>
+   <tag></tag>
+   <elementGuidId>30227d17-ecdd-4274-b452-c9b0d287b182</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-tab-content[@id='tab-content-3761']/div/md-content/work-item-inbox-directive/md-table-container/div/div[4]/div/div/table/tbody/tr/td[12]/div/grid-actions-directive/md-menu/button/md-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-svg-icon</name>
+      <type>Main</type>
+      <value>dots-vertical</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-content-3761&quot;)/div[1]/md-content[@class=&quot;white-bg _md&quot;]/work-item-inbox-directive[1]/md-table-container[1]/div[@class=&quot;os-host os-theme-dark os-host-rtl os-host-resize-disabled os-host-scrollbar-vertical-hidden flex os-host-overflow os-host-overflow-x os-host-transition os-host-scrolling&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/table[@class=&quot;ng-pristine ng-untouched ng-valid md-table md-row-select ng-not-empty&quot;]/tbody[@class=&quot;md-body&quot;]/tr[@class=&quot;md-row unread-row&quot;]/td[@class=&quot;p-r0 md-cell&quot;]/div[@class=&quot;layout-align-start-center flex&quot;]/grid-actions-directive[1]/md-menu[@class=&quot;md-menu _md&quot;]/button[@class=&quot;md-icon-button md-button md-ink-ripple&quot;]/md-icon[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-tab-content[@id='tab-content-3761']/div/md-content/work-item-inbox-directive/md-table-container/div/div[4]/div/div/table/tbody/tr/td[12]/div/grid-actions-directive/md-menu/button/md-icon</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='وزارة التعليم والتعليم العالي - إدارة تكنولوجيا المعلومات'])[1]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='موظف نظم معلومات3'])[3]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test1911-1'])[9]/preceding::md-icon[12]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعتمد'])[2]/preceding::md-icon[12]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//grid-actions-directive/md-menu/button/md-icon</value>
+   </webElementXpaths>
+</WebElementEntity>

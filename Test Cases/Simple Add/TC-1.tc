@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Electronic Outgoing from Simple add when select site verify that main site (Entity) is auto selected when choose site type internal then save and launch it from quick action then edit content then click on approve after edit then check the changes</description>
+   <name>TC-1</name>
+   <tag>18933</tag>
+   <comment></comment>
+   <testCaseGuid>6323cac1-2236-49a1-b222-d8ae12b2dab0</testCaseGuid>
+</TestCaseEntity>

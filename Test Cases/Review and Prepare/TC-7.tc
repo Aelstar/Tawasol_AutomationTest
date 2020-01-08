@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that can't add paper outgoing document without having permission</description>
+   <name>TC-7</name>
+   <tag>22238</tag>
+   <comment></comment>
+   <testCaseGuid>53428b8f-dec7-414e-ba61-4757ca15143d</testCaseGuid>
+</TestCaseEntity>

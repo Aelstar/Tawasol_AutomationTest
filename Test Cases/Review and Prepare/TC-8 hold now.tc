@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>With a user have permission to edit security level - edit in document security level from review queue and make sure that document secuirty is changed successfully</description>
+   <name>TC-8 hold now</name>
+   <tag>24667</tag>
+   <comment></comment>
+   <testCaseGuid>aeb06d22-149a-46c4-906e-debcd24955cb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add paper outgoing document then save then check the approve action doesn't appears</description>
+   <name>TC-8</name>
+   <tag>22815</tag>
+   <comment></comment>
+   <testCaseGuid>c6f0c47c-aa7b-41f3-a608-54760778390f</testCaseGuid>
+</TestCaseEntity>
