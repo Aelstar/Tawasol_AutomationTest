@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/ui-view/div/md-sidenav[1]/div/div/ul/li[6]/ul/li[1]/div/a/span[1]</value>
+         <value>/html/body/ui-view/div/md-sidenav[1]/div/div/ul/li[6]/ul/li[1]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

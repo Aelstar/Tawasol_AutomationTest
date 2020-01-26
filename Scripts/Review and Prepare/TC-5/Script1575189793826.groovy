@@ -51,8 +51,6 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.uploadFile(findTestObject('Test suite Review and Prepare/TC5/Uploade Book paper'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
 
-WebUI.click(findTestObject('Test suite Review and Prepare/TC5/close book paper'))
-
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2_3_4_5'))
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span__1'))

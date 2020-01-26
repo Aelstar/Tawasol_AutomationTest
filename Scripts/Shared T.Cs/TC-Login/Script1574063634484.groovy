@@ -22,7 +22,7 @@ WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/login/entity/motc')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_username'), 'Ahmed1')
+WebUI.setText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_username'), 'ahmed1')
 
 WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_password'), 'x8YlipdcAoUuB2dag9h+Rg==')
 

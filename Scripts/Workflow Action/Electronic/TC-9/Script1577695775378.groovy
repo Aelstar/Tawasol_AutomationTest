@@ -72,7 +72,7 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC9/estlam saree3 mn 3 points in wared electronic'))
 
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC9/double click at estlam sare3 pop up from 3points'))
+not_run: WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC9/double click at estlam sare3 pop up from 3points'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC9/No for quick recieve saree3'))
 
@@ -88,5 +88,5 @@ WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book'))
 
 WebUI.delay(8)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

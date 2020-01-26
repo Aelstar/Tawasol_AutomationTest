@@ -6,12 +6,11 @@
    <elementGuidId>8f474789-39f3-4cfb-a8d2-36d9775b6a91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='md-select-menu-container select-header-container md-active md-clickable']/md-select-menu[@class='_md md-overflow']/md-content[@class='_md']/md-option[@class='md-ink-ripple'][3]/div[@class='md-text']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/md-select-menu/md-content/md-option[3]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

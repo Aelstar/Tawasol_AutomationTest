@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='sub-view-wrapper']/ui-view//accordion-directive[@class='validation']/accordion-item[@class='pass-validation']/accordion-content//manage-correspondence-sites-directive/md-tabs/md-tabs-content-wrapper[@class='_md']/md-tab-content[1]/div/md-content/div/div[2]/md-card/md-table-container//table/tbody/tr[3]/td[3]/div[@class='layout-row']/div[1]/md-menu-bar[@role='menubar']/md-menu/button[@role='menuitem']</value>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/accordion-directive/accordion-item[2]/accordion-content/div/manage-correspondence-sites-directive/md-tabs/md-tabs-content-wrapper/md-tab-content[1]/div/md-content/div/div[2]/md-card/md-table-container/div/table/tbody/tr[1]/td[5]/div/div[1]/md-menu-bar/md-menu/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

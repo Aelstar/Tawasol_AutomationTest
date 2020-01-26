@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='sub-view-wrapper']/ui-view/div/div[2]/div[2]/div/div/accordion-directive/accordion-item[5]/accordion-title/div/button/md-icon</value>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/accordion-directive/accordion-item[5]/accordion-title/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

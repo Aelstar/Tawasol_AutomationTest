@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html//div[@id='sub-view-wrapper']/ui-view//md-card/md-table-container//table/tbody/tr[1]/td[5]</value>
+         <value>/html//div[@id='sub-view-wrapper']/ui-view//md-card/md-table-container//table/tbody/tr[1]/td[6]</value>
       </entry>
       <entry>
          <key>CSS</key>

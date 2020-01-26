@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Paper Outgoing from Simple Add then Launch it from quick action after that send it to export then Export and Receive it from incoming mail</description>
+   <name>TC-3</name>
+   <tag>18990</tag>
+   <comment></comment>
+   <testCaseGuid>f73016d1-4288-4b9a-aa4c-c32b1575d30d</testCaseGuid>
+</TestCaseEntity>

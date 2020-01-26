@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -81,7 +81,7 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.uploadFile(findTestObject('Test suite Review and Prepare/TC5/Uploade Book paper'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
 
-WebUI.click(findTestObject('Test suite Review and Prepare/TC5/close book paper'))
+not_run: WebUI.click(findTestObject('Test suite Review and Prepare/TC5/close book paper'))
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2_3_4_5'))
 

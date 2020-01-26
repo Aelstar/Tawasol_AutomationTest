@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Paper Outgoing from Simple Add then save then Launch it after that approve then Export and Return it from incoming mail and finally edit after export from returned queue</description>
+   <name>TC-7</name>
+   <tag>19039</tag>
+   <comment></comment>
+   <testCaseGuid>f2059b85-2237-460d-a8ee-017dda7d97b8</testCaseGuid>
+</TestCaseEntity>

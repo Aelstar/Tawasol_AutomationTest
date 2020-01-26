@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[6]/md-menu-content[@role='menu']/md-menu-item[@class='md-in-menu-bar']/button[@role='menuitem']</value>
+         <value>/html/body/div[6]/md-menu-content/md-menu-item[1]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

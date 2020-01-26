@@ -88,4 +88,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Workflow Action/Electronic/TC-9</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6a4ed7b2-3451-4de4-a581-64b824209326</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77f71d4f-9314-4f56-bf3f-d61c189b0f9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workflow Action/Electronic/TC- 10</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95d2c101-dc53-4712-a5cd-bb422ad8e511</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>70effc93-424b-4962-9d93-4a097c7c64fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workflow Action/Electronic/TC- 11</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>033e9307-862e-46ec-a69d-ac003f8e0e9f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20d53113-7681-4b4c-ab44-87bebf5896d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workflow Action/Electronic/TC- 12</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

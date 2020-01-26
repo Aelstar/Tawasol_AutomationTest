@@ -78,5 +78,93 @@ WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/department-i
 
 WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/New Folder22/Page_/span_'))
 
-WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/New Folder22/Page_/span_ _1 (1)'))
+WebUI.click(findTestObject('Page_/span_ _1 (1) (1)'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/inbox/user-inbox')
+
+WebUI.click(findTestObject('Page_/span_ (2)'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2_3'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2_3_4'))
+
+WebUI.closeBrowser()
+
+WebUI.navigateToUrl('https://www.youtube.com/watch?v=P-SVkWo2E2w')
+
+WebUI.switchToWindowTitle('')
+
+WebUI.click(findTestObject('Page_/span_ (1) (1)'))
+
+WebUI.click(findTestObject('Page_/span__1 (1)'))
+
+WebUI.click(findTestObject('Page_/td_ (1)'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/inbox/user-inbox')
+
+WebUI.click(findTestObject('Page_/span_ (2)'))
+
+WebUI.click(findTestObject('Page_/span_ _1 (1)'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2_3'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/Page_/span_ _1_2_3_4'))
+
+WebUI.closeBrowser()
+
+WebUI.navigateToUrl('https://www.youtube.com/watch?v=P-SVkWo2E2w')
+
+WebUI.switchToWindowTitle('')
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/span_ (1) (1)'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/span__1 (1)'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/td_ (1)'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/department-inbox/incoming')
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/span_ (2)'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/span_ _1 (1) (1)'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/inbox/user-inbox')
+
+WebUI.rightClick(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/a_Test Auto141-1'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/p_'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/span_   Test Auto141-1'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/button_'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/entity/motc/inbox/user-inbox')
+
+WebUI.rightClick(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/a_Test Auto141-1'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/p_'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/p__1'))
+
+WebUI.click(findTestObject('Object Repository/Workflow Action/Electronic/xxxxxxxxxxx/tc2 in paper/tc222222222/Page_/button_'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Paper Outgoing from Simple Add then Launch it from quick action after that Broadcast it from user inbox</description>
+   <name>TC-6</name>
+   <tag>19009</tag>
+   <comment></comment>
+   <testCaseGuid>2b0c7805-bc0e-4a23-add4-b7a14b8a6db0</testCaseGuid>
+</TestCaseEntity>

@@ -7,6 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value>/html/body/div[6]/md-dialog/div/div[1]/button[1]/md-icon</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value>//div[@id='office-full-screen']/button[1]/md-icon[@role='img']</value>
       </entry>
    </selectorCollection>

@@ -6,12 +6,11 @@
    <elementGuidId>0b4f55cb-3329-479e-ac22-8f2f84fcbddf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/accordion-directive/accordion-item[3]/accordion-title/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sub-view-wrapper']/ui-view/div/div[2]/div[2]/div/div/accordion-directive/accordion-item[3]/accordion-title/div/button/md-icon</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
