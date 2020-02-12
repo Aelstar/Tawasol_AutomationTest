@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>plus egraaaaaaaa elmostaheth</name>
+   <name>plus icon egraa elmostahdeth</name>
    <tag></tag>
-   <elementGuidId>214fca37-7ea3-4632-b395-a07df759d7f9</elementGuidId>
+   <elementGuidId>a8730297-d2eb-4785-b298-2400662d4b44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[8]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
+         <value>/html/body/div[4]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[8]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

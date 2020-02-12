@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add paper outgoing,launch to user from inbox quick actions send to export(Direct Export), Open incoming mail of department inbox select multiple document (Not forwarded)and quick receive (receive bulk) and launch document to user</description>
+   <name>TC-8</name>
+   <tag>22260</tag>
+   <comment></comment>
+   <testCaseGuid>24607dfa-63c9-4b48-b788-14d835f27e5c</testCaseGuid>
+</TestCaseEntity>

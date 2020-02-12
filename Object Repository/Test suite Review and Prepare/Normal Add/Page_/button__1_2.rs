@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html//div[@id='sub-view-wrapper']/ui-view//accordion-directive[@class='validation']/accordion-item[4]/accordion-content//manage-attachment-directive[@class='flex']//ng-form[@name='attachment_form']/div/div[1]/button[@type='button']</value>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/accordion-directive/accordion-item[4]/accordion-content/div/manage-attachment-directive/div/ng-form/div[4]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

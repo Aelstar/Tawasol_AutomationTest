@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html//md-dialog[@role='dialog']/md-dialog-content//manage-attachment-directive//ng-form[@name='attachment_form']/div/div[1]/button[@type='button']</value>
+         <value>/html//md-dialog[@role='dialog']/md-dialog-content//manage-attachment-directive//ng-form[@name='attachment_form']/div[4]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

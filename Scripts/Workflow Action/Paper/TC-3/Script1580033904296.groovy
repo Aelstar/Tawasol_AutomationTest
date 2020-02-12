@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/md-icon_1'))
 //WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/button_ (1)'))
@@ -141,7 +141,7 @@ WebUI.click(findTestObject('Workflow Action/Electronic/TC4/choose egraaa'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC4/click at agrra elmostahdath'))
 
-WebUI.click(findTestObject('Workflow Action/Electronic/TC4/plus button for egraa'))
+WebUI.click(findTestObject('Workflow Action/Paper/TC3/plus'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC4/send butoon'))
 
@@ -153,5 +153,5 @@ WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/check mail sen
 
 WebUI.delay(8)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

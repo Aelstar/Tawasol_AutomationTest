@@ -194,7 +194,7 @@ WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/login/entity/motc')
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC9/log in again'), 'ahmed2')
 
-WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC9/password log in again'), 'x8YlipdcAoUuB2dag9h+Rg==')
+WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC9/password log in again'), 'V35d/XPbheB4hLrWdRI8/A==')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/log in again button'))
 

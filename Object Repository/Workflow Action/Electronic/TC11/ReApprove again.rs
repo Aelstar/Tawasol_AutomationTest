@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/md-select-menu/md-content/md-option[2]/div</value>
+         <value>/html/body/div[4]/md-select-menu/md-content/md-option[2]/div[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

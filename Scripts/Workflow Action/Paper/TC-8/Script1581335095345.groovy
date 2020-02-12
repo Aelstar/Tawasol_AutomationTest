@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/md-icon_1'))
+//WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/button_ (1)'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/span_'))
@@ -37,22 +39,23 @@ WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
+not_run: WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ _1_2'))
+
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/body_                                      _35f8cc'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'تكنولوجيا ')
+WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'مكتب الوزير')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ (1)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.delay(2)
-
 WebUI.uploadFile(findTestObject('Test suite Simple Add/TC8/Upload Document'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/button_1_2save'))
 
+//not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button__1_2_3_4_5_6_7_8'))
 WebUI.doubleClick(findTestObject('Test suite Simple Add/TC3/Page_/Page_/td_  3'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Yes Save buttton'))
@@ -73,19 +76,77 @@ WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_ _1_2_3_4
 
 WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/check mail sent'))
 
+//not_run: WebUI.rightClick(findTestObject('Test suite Simple Add/TC3/Page_/Page_/a_Test1911-1'))
+//
+//not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/p_'))
+//
+//not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/p_ (1)'))
 WebUI.delay(4)
 
-WebUI.rightClick(findTestObject('Test suite Simple Add/TC10/Page_/a_Test2411-2'))
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/a_Test2411-2'))
 
-WebUI.click(findTestObject('Workflow Action/Paper/TC2/edit from right click'))
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/header of book'))
 
-WebUI.click(findTestObject('Workflow Action/Paper/TC2/edit content from right click'))
+WebUI.click(findTestObject('Workflow Action/Paper/TC3/export'))
 
-WebUI.doubleClick(findTestObject('Workflow Action/Paper/TC2/double click at recreate content of paper document'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(8)
 
-WebUI.uploadFile(findTestObject('Workflow Action/Paper/TC2/uploade recreate document paper'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
+WebUI.click(findTestObject('Test suite Simple Add/TC9/Department mail queue'))
 
-WebUI.click(findTestObject('Workflow Action/Paper/TC2/save recreate document paper'))
+WebUI.click(findTestObject('Test suite Simple Add/TC9/Ready to Export queue'))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC7/Export from 3 points'))
+
+WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC4/double click at export box popup'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC4/export button'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC4/wared electronic'))
+
+WebUI.delay(3)
+
+WebUI.check(findTestObject('Workflow Action/Electronic/TC9/checkbox 1st document'))
+
+WebUI.check(findTestObject('Workflow Action/Electronic/TC9/checkbox 2nd document'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC9/quick recieve bulk'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC9/double click at popup for quick recieve bulk'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC9/yes quick receive bulk'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC4/users you want send'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC4/choose egraaa'))
+
+WebUI.click(findTestObject('Workflow Action/Paper/TC8/egraaaa elmostahdeth'))
+
+WebUI.click(findTestObject('Workflow Action/Paper/TC8/plus icon egraa elmostahdeth'))
+
+WebUI.click(findTestObject('Workflow Action/Electronic/TC9/send buutton in egraaaa elmostahdetjhhhh'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_ _1_2_3'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_ _1_2_3_4'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/check mail sent'))
+
+//not_run: WebUI.rightClick(findTestObject('Test suite Simple Add/TC3/Page_/Page_/a_Test1911-1'))
+//
+//not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/p_'))
+//
+//not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/p_ (1)'))
+WebUI.delay(8)
+
+WebUI.closeBrowser()
 

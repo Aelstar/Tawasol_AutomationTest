@@ -6,16 +6,16 @@
    <elementGuidId>8a681cee-b58d-4317-813d-e75719225e17</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>//md-dialog-content[@id='dialogContent_329']/div/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[5]/div/button[4]/md-icon</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;dialogContent_343&quot;)/div[@class=&quot;md-dialog-content cms-dialog-content&quot;]/manage-attachment-directive[1]/div[@class=&quot;layout-column&quot;]/md-card[@class=&quot;_md&quot;]/md-table-container[1]/table[@class=&quot;ng-pristine ng-untouched ng-valid md-table ng-not-empty md-row-select&quot;]/tbody[@class=&quot;md-body&quot;]/tr[@class=&quot;md-row&quot;]/td[@class=&quot;md-cell&quot;]/div[@class=&quot;layout-align-start-center layout-row flex&quot;]/button[@class=&quot;md-icon-button md-button md-ink-ripple&quot;]/md-icon[1]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>//md-dialog-content[@id='dialogContent_329']/div/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[5]/div/button[4]/md-icon</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html//md-dialog[@role='dialog']/md-dialog-content//manage-attachment-directive//md-card[@class='_md']/md-table-container/table/tbody/tr[@class='md-row']/td[5]/div/button[4]/md-icon[@role='img']</value>
+         <value>/html/body/div[5]/md-dialog/md-dialog-content/div[1]/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[6]/div/button[4]/md-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

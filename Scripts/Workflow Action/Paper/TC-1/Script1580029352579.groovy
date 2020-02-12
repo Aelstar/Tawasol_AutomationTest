@@ -101,5 +101,5 @@ WebUI.click(findTestObject('Workflow Action/Electronic/TC2/Save book'))
 
 WebUI.delay(8)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

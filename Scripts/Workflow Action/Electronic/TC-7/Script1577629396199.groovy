@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-for (int i=0; i<4; i++){
+//for (int i=0; i<4; i++){
 WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/span_'))
@@ -237,4 +237,4 @@ WebUI.delay(8)
 
 WebUI.closeBrowser()
 
-}
+//}

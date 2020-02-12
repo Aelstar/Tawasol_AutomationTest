@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-select[@id='siteTypeAdvanced']//span[@class='md-select-icon']</value>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/accordion-directive/accordion-item[2]/accordion-content/div/manage-correspondence-sites-directive/md-tabs/md-tabs-content-wrapper/md-tab-content[1]/div/md-content/div/div[1]/md-input-container[1]/md-select/md-select-value/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

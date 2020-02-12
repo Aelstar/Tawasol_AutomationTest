@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_username'), 'ahmed1')
 
-WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_password'), 'x8YlipdcAoUuB2dag9h+Rg==')
+WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC5/Page_/input_English_password'), 'V35d/XPbheB4hLrWdRI8/A==')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/button_'))
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Export Ensure</name>
+   <name>plus</name>
    <tag></tag>
-   <elementGuidId>7e439f71-f6bf-4d7c-86e0-409265b8ba88</elementGuidId>
+   <elementGuidId>8c41d017-d24c-4452-ad04-2c0481706693</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/md-dialog/md-dialog-actions/button[1]</value>
+         <value>/html/body/div[4]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[8]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

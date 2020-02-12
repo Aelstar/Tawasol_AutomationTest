@@ -183,5 +183,5 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
 
 WebUI.delay(5)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

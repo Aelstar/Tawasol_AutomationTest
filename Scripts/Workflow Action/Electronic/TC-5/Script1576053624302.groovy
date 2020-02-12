@@ -45,9 +45,7 @@ WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button_ _1'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button_  - Template Employment Ad'))
 
-WebUI.delay(3)
-
-WebUI.delay(3)
+WebUI.delay(6)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC2/Page_/md-icon_1_2'))
 

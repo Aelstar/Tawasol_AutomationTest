@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/span_'))
 
@@ -120,8 +120,6 @@ WebUI.click(findTestObject('Workflow Action/Electronic/TC11/edit book again afte
 WebUI.setText(findTestObject('Workflow Action/Electronic/TC11/edit book again after approved'), 'Book Edited after approve ')
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/Save again after edit approve'))
-
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC12/double click at resave again td'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/No save button alert'))
 
