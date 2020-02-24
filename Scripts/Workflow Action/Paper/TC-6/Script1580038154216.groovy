@@ -107,3 +107,5 @@ WebUI.click(findTestObject('Workflow Action/Paper/TC6/bradcast button'))
 
 WebUI.delay(5)
 
+WebUI.closeBrowser()
+

@@ -135,5 +135,5 @@ WebUI.click(findTestObject('Workflow Action/Electronic/TC7/stop at book in sader
 
 WebUI.delay(8)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

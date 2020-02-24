@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Full Electronic Outgoing Document then check the first option is selected by default in mandatory fields list then launch it from Quick Action  and verify that color of close button and &quot;X&quot; in [launch popup] changed to RED</description>
+   <name>TC-1</name>
+   <tag>18929</tag>
+   <comment></comment>
+   <testCaseGuid>592f3848-0cfd-42dd-a9db-780eb62aaef8</testCaseGuid>
+</TestCaseEntity>
