@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[4]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[8]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
+         <value>/html/body/div[4]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[7]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -109,7 +109,7 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/t3del b3d el approve'))
 
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC11/double click at t3del b3d el approve popup'))
+WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC11/double click at t3del b3d el approve popup'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/yes t3del bed el approve popup'))
 

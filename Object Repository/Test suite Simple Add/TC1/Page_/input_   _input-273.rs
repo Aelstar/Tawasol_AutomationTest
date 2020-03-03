@@ -6,19 +6,19 @@
    <elementGuidId>5386e4d4-671e-4fbb-abef-7b3f4520f9a3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/md-select-menu/md-content/md-select-header/div/input</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>.ng-valid-minlength</value>
+         <value>.select-header-input.ng-touched</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'search' and @id = 'input-273' and @placeholder = 'الجهة الفرعية']</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/ui-view[1]/div[1]/div[1]/div[2]/ui-view[1]/div[1]/ui-view[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/accordion-directive[1]/accordion-item[1]/accordion-content[1]/div[2]/manage-correspondence-sites-simple-directive[1]/div[1]/md-autocomplete[1]/md-autocomplete-wrap[1]/input[1]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

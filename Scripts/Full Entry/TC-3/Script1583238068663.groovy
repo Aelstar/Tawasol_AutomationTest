@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -95,57 +95,9 @@ WebUI.doubleClick(findTestObject('Test suite Simple Add/TC3/Page_/Page_/td_  3')
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/No save button alert'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/review books queue'))
 
-WebUI.click(findTestObject('Workflow Action/Electronic/TC4/document action'))
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC4/approve and export'))
-
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Excecution button'))
-
-WebUI.delay(5)
-
-not_run: WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC4/signiture box'))
-
-not_run: WebUI.click(findTestObject('Workflow Action/Electronic/TC4/select signiture'))
-
-not_run: WebUI.click(findTestObject('Workflow Action/Electronic/TC4/approve buton for signiture box'))
-
-not_run: WebUI.delay(3)
-
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC4/double click at export box popup'))
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC4/export button'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Department mail queue'))
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC4/wared electronic'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
-
-WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC5/return from wared elctonic'))
-
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC5/double click at return popup'))
-
-WebUI.setText(findTestObject('Workflow Action/Electronic/TC5/reson comment for return'), 'Automation Test')
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC5/save of return'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC7/Sader mo3ad'))
-
-WebUI.click(findTestObject('Workflow Action/Electronic/TC7/stop at book in sader mo3ad'))
-
-WebUI.delay(8)
-
-not_run: WebUI.closeBrowser()
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/3 points in prepare'))
 

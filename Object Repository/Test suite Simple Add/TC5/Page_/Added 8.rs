@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[8]//md-calendar[@role='dialog']//md-calendar-month//md-virtual-repeat-container//table[@role='grid']/tbody[1]/tr[4]/td[6]/span[@class='md-calendar-date-selection-indicator']</value>
+         <value>/html/body/div[9]/md-menu-content/md-menu-item[1]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>

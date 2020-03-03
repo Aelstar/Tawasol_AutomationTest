@@ -6,17 +6,16 @@
    <elementGuidId>e5e155b1-6f34-4a97-91d2-4937fb172502</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/md-select-menu/md-content/md-option</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>md-virtual-repeat-container.md-virtual-repeat-container.md-autocomplete-suggestions-container.md-whiteframe-z1.md-orient-vertical.ng-hide div.md-virtual-repeat-scroller div.md-virtual-repeat-offsetter ul.md-autocomplete-suggestions li:nth-child(1) md-autocomplete-parent-scope:nth-child(1) span:nth-child(1) > span.highlight</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'إدارة تكنولوجيا المعلومات' or . = 'إدارة تكنولوجيا المعلومات')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/md-virtual-repeat-container[1]/div[1]/div[2]/ul[1]/li[1]/md-autocomplete-parent-scope[1]/span[1]/span[1]
-</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

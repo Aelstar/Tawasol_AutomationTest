@@ -6,15 +6,17 @@
    <elementGuidId>f243b9af-4a84-4cd0-b213-c059d4ff1cdc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.md-show-clear-button.md-whiteframe-z1 > input[role='combobox']</value>
+         <key>XPATH</key>
+         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/div[1]/div/accordion-directive/accordion-item/accordion-content/div[2]/manage-correspondence-sites-simple-directive/div/div/md-input-container[3]/md-select/md-select-value/span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body</value>
+         <key>CSS</key>
+         <value>.md-show-clear-button.md-whiteframe-z1 > input[role='combobox']
+
+</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

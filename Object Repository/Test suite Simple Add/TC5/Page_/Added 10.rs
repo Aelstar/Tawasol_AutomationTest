@@ -6,15 +6,14 @@
    <elementGuidId>ad4c5087-3767-4311-a7d2-8a5366feb9d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//body/div[10]//md-calendar[@role='dialog']//md-calendar-month//md-virtual-repeat-container//table[@role='grid']/tbody[1]/tr[5]/td[6]/span[@class='md-calendar-date-selection-indicator']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[8]/md-menu-content/md-menu-item[1]/button</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

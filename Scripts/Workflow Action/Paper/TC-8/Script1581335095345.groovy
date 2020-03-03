@@ -148,5 +148,5 @@ WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/check mail sen
 //not_run: WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/p_ (1)'))
 WebUI.delay(8)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

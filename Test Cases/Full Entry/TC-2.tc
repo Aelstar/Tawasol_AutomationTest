@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Full Paper Outgoing Document then check the first option is selected by default in mandatory fields list then launch it from Quick Action with comment and verify display full comment tooltip</description>
+   <name>TC-2</name>
+   <tag>18930</tag>
+   <comment></comment>
+   <testCaseGuid>e49486c6-b6c6-4e45-a403-db1948176184</testCaseGuid>
+</TestCaseEntity>

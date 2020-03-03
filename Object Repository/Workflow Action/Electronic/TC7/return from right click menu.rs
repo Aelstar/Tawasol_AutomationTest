@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>check mail sent</name>
+   <name>return from right click menu</name>
    <tag></tag>
-   <elementGuidId>b12a89cb-4886-4012-8b09-0fdadf37ebd8</elementGuidId>
+   <elementGuidId>9b39d6bc-b2ea-49a7-8ac6-d323783abf3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/ui-view/div/div/div[2]/ui-view/div/ui-view/div/div[2]/div[2]/div/div[1]/md-card/div/md-tabs/md-tabs-content-wrapper/md-tab-content/div/md-content/work-item-inbox-directive/md-table-container/div[1]/div[4]/div/div/table/tbody/tr[1]/td[8]</value>
+         <value>/html/body/div[5]/md-menu-content/md-menu-item[4]/button/div/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

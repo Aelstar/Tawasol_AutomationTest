@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-select[@id='siteType']</value>
+         <value>//md-select[@id='siteTypeAdvanced']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

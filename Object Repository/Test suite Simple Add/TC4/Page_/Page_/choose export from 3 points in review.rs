@@ -6,11 +6,11 @@
    <elementGuidId>4dbd193c-484e-4814-bba2-bc6deff1b3ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/md-menu-content/md-menu-item[1]/button/md-icon</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[4]/md-menu-content/md-menu-item[1]/button/md-icon</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
