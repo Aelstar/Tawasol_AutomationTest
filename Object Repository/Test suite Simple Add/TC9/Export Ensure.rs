@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/md-dialog/md-dialog-actions/button[1]</value>
+         <value>/html/body/div[4]/md-dialog/md-dialog-actions/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

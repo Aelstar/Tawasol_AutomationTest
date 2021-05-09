@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/login/entity/motc')
+WebUI.navigateToUrl('http://Ahmed1:Automation@eblaepm.no-ip.org:9080/ui/#/entity/motc/landing-page')
 
 WebUI.maximizeWindow()
 

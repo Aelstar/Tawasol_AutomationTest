@@ -24,17 +24,43 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 'داخلية')
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
+boolean setcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 
+    FailureHandling.OPTIONAL)
+
+if (setcorrespondingvalue == true) {
+    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+} else {
+    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/set corresponding value TC1-1'), GlobalVariable.Internal_Corresponding_Site_Type)
+}
+
+// WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/body_                                      _35f8cc'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'تكنولوجيا ')
+//
+//boolean setSUBcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 
+//    FailureHandling.OPTIONAL)
+//
+//if (setSUBcorrespondingvalue == true) {
+//    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'مكتب الوزير')
+//} else if (setSUBcorrespondingvalue == false) {
+//    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/enter sub site valueTC1-1'), 'مكتب الوزير')
+//} else {
+//    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/enter sub site valueTC1-2'), 'مكتب الوزير')
+//}
+WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'إدارة تكنولوجيا المعلومات')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ (1)'), FailureHandling.STOP_ON_FAILURE)
 
@@ -159,7 +185,7 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Department mail queue'))
 
-WebUI.delay(8)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Ready to Export queue'))
 
@@ -169,13 +195,31 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Export click'))
+boolean ExportIcon = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -1'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Ensure from data'))
+if (ExportIcon == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -1'))
+} else if (ExportIcon == false) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -2'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -3'))
+}
 
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Export Ensure'))
+not_run: WebUI.click(findTestObject('Test suite Simple Add/TC9/Ensure from data'))
 
-WebUI.delay(8)
+boolean ExportButton = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -1'), 
+    FailureHandling.OPTIONAL)
+
+if (ExportButton == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -1'))
+} else if (ExportButton == false) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -2'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -3'))
+}
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Log out'))
 

@@ -26,7 +26,14 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
+
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/input_concat(id(  input_279  ))_input_279'), 'داخلية')
 
@@ -145,11 +152,11 @@ WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/a_Test2411-2'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/header of book'))
 
-WebUI.delay(8)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/Approve from out'))
 
-WebUI.delay(8)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Department mail queue'))
 
@@ -161,11 +168,29 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Export click'))
+boolean ExportIcon = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -1'), 
+    FailureHandling.OPTIONAL)
+
+if (ExportIcon == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -1'))
+} else if (ExportIcon == false) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -2'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export from 3 points menu in ready to Export -3'))
+}
 
 not_run: WebUI.click(findTestObject('Test suite Simple Add/TC9/Ensure from data'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC9/Export Ensure'))
+boolean ExportButton = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -1'), 
+    FailureHandling.OPTIONAL)
+
+if (ExportButton == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -1'))
+} else if (ExportButton == false) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -2'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/TC5/Auto Changes Buttons for TC 5,9,10 SimpleAdd/Export button -3'))
+}
 
 WebUI.delay(5)
 
@@ -179,7 +204,7 @@ WebUI.delay(8)
 
 WebUI.navigateToUrl('http://eblaepm.no-ip.org:9080/ui/#/login/entity/motc')
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC9/log in again'), 'Ahmed2')
+WebUI.setText(findTestObject('Test suite Simple Add/TC9/log in again'), 'ahmed2')
 
 WebUI.setEncryptedText(findTestObject('Test suite Simple Add/TC9/password log in again'), 'V35d/XPbheB4hLrWdRI8/A==')
 

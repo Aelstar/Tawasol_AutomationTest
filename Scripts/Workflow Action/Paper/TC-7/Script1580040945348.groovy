@@ -33,10 +33,25 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/div_ _md-bar')
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 'داخلية')
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
+boolean setcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 
+    FailureHandling.OPTIONAL)
+
+if (setcorrespondingvalue == true) {
+    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+} else {
+    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/set corresponding value TC1-1'), GlobalVariable.Internal_Corresponding_Site_Type)
+}
+
+// WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
 not_run: WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ _1_2'))
@@ -89,7 +104,13 @@ WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/a_Test2411-2'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/header of book'))
 
-WebUI.click(findTestObject('Workflow Action/Paper/TC3/export'))
+boolean ExportbuttonafteropenDoc = WebUI.verifyElementVisible(findTestObject('Workflow Action/Paper/TC3/export'), FailureHandling.OPTIONAL)
+
+if (ExportbuttonafteropenDoc == true) {
+    WebUI.click(findTestObject('Workflow Action/Paper/TC3/export'))
+} else {
+    WebUI.click(findTestObject('Workflow Action/Paper/Automation Button that Changed in Paper/Export after open document TC4-1'))
+}
 
 WebUI.delay(8)
 
@@ -119,7 +140,14 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/Stop at book'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
-WebUI.click(findTestObject('Workflow Action/Electronic/TC5/return from wared elctonic'))
+boolean returnfromwared = WebUI.verifyElementClickable(findTestObject('Workflow Action/Electronic/TC5/return from wared elctonic'), 
+    FailureHandling.OPTIONAL)
+
+if (returnfromwared == true) {
+    WebUI.click(findTestObject('Workflow Action/Electronic/TC5/return from wared elctonic'))
+} else {
+    WebUI.click(findTestObject('Workflow Action/Electronic/Auto Button that change in Work Floow/Return from wared TC5-1'))
+}
 
 WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC5/double click at return popup'))
 

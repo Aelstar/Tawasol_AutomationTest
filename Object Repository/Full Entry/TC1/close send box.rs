@@ -6,12 +6,11 @@
    <elementGuidId>0af9ca18-c2fb-4bac-8a18-e2842f68cb85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[5]/md-dialog/md-dialog-actions/button[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[5]/md-dialog/md-dialog-actions/button[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

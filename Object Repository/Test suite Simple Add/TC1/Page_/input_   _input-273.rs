@@ -6,16 +6,20 @@
    <elementGuidId>5386e4d4-671e-4fbb-abef-7b3f4520f9a3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'search' and @id = 'input-273' and @placeholder = 'الجهة الفرعية']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[4]/md-select-menu/md-content/md-select-header/div/input</value>
+         <value>//div[@id='simple-site-search']//md-autocomplete[@placeholder='الجهة الفرعية']//input[@role='combobox']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.select-header-input.ng-touched</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'search' and @id = 'input-273' and @placeholder = 'الجهة الفرعية']</value>
+         <value>.select-header-input.ng-touched
+
+//div[@id='simple-site-search']//md-autocomplete[@placeholder='الجهة الفرعية']//input[@role='combobox']
+/html/body/div[4]/md-select-menu/md-content/md-select-header/div/input
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -25,16 +25,42 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
+boolean setcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 
+    FailureHandling.OPTIONAL)
+
+if (setcorrespondingvalue == true) {
+    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+} else {
+    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/set corresponding value TC1-1'), GlobalVariable.Internal_Corresponding_Site_Type)
+}
+
+// WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/body_                                      _35f8cc'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
+//
+//boolean setSUBcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 
+//    FailureHandling.OPTIONAL)
+//
+//if (setSUBcorrespondingvalue == true) {
+//    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'مكتب الوزير')
+//} else if (setSUBcorrespondingvalue == false) {
+//    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/enter sub site valueTC1-1'), 'مكتب الوزير')
+//} else {
+//    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/enter sub site valueTC1-2'), 'مكتب الوزير')
+//}
 WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'مكتب الوزير')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ (1)'), FailureHandling.STOP_ON_FAILURE)
@@ -97,5 +123,5 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/Yes Save buttton'))
 
 WebUI.click(findTestObject('Full Entry/TC1/close send box'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

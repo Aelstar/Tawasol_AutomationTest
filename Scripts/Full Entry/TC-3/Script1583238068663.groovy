@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -25,9 +25,23 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
+
+boolean setcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 
+    FailureHandling.OPTIONAL)
+
+if (setcorrespondingvalue == true) {
+    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+} else {
+    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/set corresponding value TC1-1'), GlobalVariable.Internal_Corresponding_Site_Type)
+}
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
@@ -100,4 +114,72 @@ WebUI.click(findTestObject('Test suite Review and Prepare/TC1/review books queue
 WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book'))
 
 WebUI.click(findTestObject('Test suite Review and Prepare/TC1/3 points in prepare'))
+
+WebUI.click(findTestObject('Full Entry/TC3/reject from review queu'))
+
+WebUI.doubleClick(findTestObject('Full Entry/TC3/double click at reject comment box'))
+
+WebUI.sendKeys(findTestObject('Full Entry/TC3/comment for reject'), 'reject document')
+
+WebUI.click(findTestObject('Full Entry/TC3/save comment'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Full Entry/TC3/Reject Queue'))
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book'))
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/3 points in prepare'))
+
+WebUI.click(findTestObject('Full Entry/TC3/send to reject queue'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/review books queue'))
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book'))
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/3 points in prepare'))
+
+WebUI.click(findTestObject('Full Entry/TC3/accept book from review queue'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/md-select_                                 _e58203'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Full Entry/TC3/select approve action'))
+
+WebUI.click(findTestObject('Full Entry/TC3/plus button in review'))
+
+WebUI.click(findTestObject('Full Entry/TC3/send button'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/inbox user'))
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/inbox show'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC1/stop at book in inbox'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Test suite Review and Prepare/TC3/Open book'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/header of book'))
+
+WebUI.doubleClick(findTestObject('Test suite Review and Prepare/TC3/double click at prevouis comment'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/button_'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/button_ (1)'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/Approve from out'))
+
+WebUI.delay(15)
+
+not_run: WebUI.closeBrowser()
 

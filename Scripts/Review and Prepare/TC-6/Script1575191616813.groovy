@@ -57,21 +57,68 @@ WebUI.click(findTestObject('Test suite Review and Prepare/TC6/rechoose anathor c
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+boolean choosecorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/TC6/re plus again for internal correspo'))
+if (choosecorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+} else if (choosecorrespondingsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-2'))
+}
+
+boolean replusagain = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/TC6/re plus again for internal correspo'), 
+    FailureHandling.OPTIONAL)
+
+if (replusagain == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/TC6/re plus again for internal correspo'))
+} else if (replusagain == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Re Plus add corrsponding site Review and prepare TC6-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Re Plus add corrsponding site Review and prepare TC6-2'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/TC6/re default for internal correspo'))
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_ (2)'))
+boolean chossefollowaction = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_ (2)'), 
+    FailureHandling.OPTIONAL)
+
+if (chossefollowaction == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_ (2)'))
+} else if (chossefollowaction == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Rechoose folow action Review and prepare TC6-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Rechoose folow action Review and prepare TC6-2'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/TC6/need follow'))
 
-WebUI.click(findTestObject('Test suite Review and Prepare/TC6/clich at date follow'))
+
+boolean chosseDatefollow = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/TC6/clich at date follow'), 
+    FailureHandling.OPTIONAL)
+
+if (chosseDatefollow == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/TC6/clich at date follow'))
+} else if (chosseDatefollow == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Click at Follow Date Review and prepare TC6-2'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Click at Follow Date Review and prepare TC6-1'))
+}
+
 
 WebUI.click(findTestObject('Test suite Review and Prepare/TC6/Select Date'))
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/plus icon 3rd site'))
+boolean Replusiconfor3rdsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/plus icon 3rd site'), 
+    FailureHandling.OPTIONAL)
+
+if (Replusiconfor3rdsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/plus icon 3rd site'))
+} else if (Replusiconfor3rdsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Replus icon for 3rd site Review and prepare TC6-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Replus icon for 3rd site Review and prepare TC6-2'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/TC6/Copy of book'))
 

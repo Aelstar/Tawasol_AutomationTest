@@ -51,7 +51,14 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
+
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/input_concat(id(  input_279  ))_input_279'), 'حكومية')
 
@@ -59,9 +66,15 @@ WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC6/main area'))
+boolean choosemainsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC6/main area'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC6/search main area'), 'ربط')
+if (choosemainsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC6/main area'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Main Site Click for Main SiteTC6-1'))
+}
+
+WebUI.setText(findTestObject('Test suite Simple Add/TC6/search main area'), 'جهة تجربة ربط مستخدم')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC6/rabt main area'))
 

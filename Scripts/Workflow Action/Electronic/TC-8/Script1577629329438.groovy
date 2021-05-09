@@ -15,25 +15,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC5/Page_/span_'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_'))
+
+WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 'داخلية')
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
 
+boolean setcorrespondingvalue = WebUI.verifyElementVisible(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 
+    FailureHandling.OPTIONAL)
+
+if (setcorrespondingvalue == true) {
+    WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
+} else {
+    WebUI.setText(findTestObject('Full Entry/Auto Button that change in Full Entry/set corresponding value TC1-1'), GlobalVariable.Internal_Corresponding_Site_Type)
+}
+
+// WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), GlobalVariable.Internal_Corresponding_Site_Type)
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/body_                                      _35f8cc'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'مكتب الوزير')
+WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_   _input-273'), 'تكنولوجيا ')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/span_ (1)'), FailureHandling.STOP_ON_FAILURE)
 
@@ -42,8 +59,6 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button_ _1'))
 
 WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button_  - Template Employment Ad'))
-
-WebUI.delay(3)
 
 WebUI.delay(3)
 
@@ -99,15 +114,42 @@ WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/md-select_    
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/approve clickk'))
+boolean chooseApproveAction = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC3/Page_/Page_/approve clickk'), 
+    FailureHandling.OPTIONAL)
+
+if (chooseApproveAction == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/approve clickk'))
+} else if (chooseApproveAction == false) {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Choose Action for launch dropdown list TC10-1'))
+} else {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Choose Action for launch dropdown list TC10-2'))
+}
 
 not_run: WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/Add user from screen click at 3point'))
 
 not_run: WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/add after 3 points in user screen'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/md-icon_1_2_3_4_5_6_7'))
+boolean plusclickforApprove = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC3/Page_/Page_/md-icon_1_2_3_4_5_6_7'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button__1_2_3_4_5_6_7_8_9_10'))
+if (plusclickforApprove == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/md-icon_1_2_3_4_5_6_7'))
+} else if (plusclickforApprove == false) {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/click at plus for approve TC10-1'))
+} else {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/click at plus for approve TC10-2'))
+}
+
+boolean sendbuttonclick = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button__1_2_3_4_5_6_7_8_9_10'), 
+    FailureHandling.OPTIONAL)
+
+if (sendbuttonclick == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/button__1_2_3_4_5_6_7_8_9_10'))
+} else if (sendbuttonclick == false) {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Send document button TC10-1'))
+} else {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Send document button TC10-2'))
+}
 
 WebUI.click(findTestObject('Test suite Simple Add/TC3/Page_/Page_/span_ _1_2_3'))
 
@@ -138,7 +180,16 @@ not_run: WebUI.setText(findTestObject('Test suite Simple Add/TC10/Page_/p_'), 'e
 
 not_run: WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/Approve from out'))
+boolean Approveafteropendocument = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC10/Page_/Approve from out'), 
+    FailureHandling.OPTIONAL)
+
+if (Approveafteropendocument == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/Approve from out'))
+} else if (Approveafteropendocument == false) {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Approve document after open TC10-1'))
+} else {
+    WebUI.click(findTestObject('Full Entry/Auto Button that change in Full Entry/Approve document after open TC10-2'))
+}
 
 not_run: WebUI.click(findTestObject('Test suite Simple Add/TC10/Page_/p_'))
 
@@ -156,7 +207,7 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Department mail queue'))
 
-WebUI.delay(8)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Test suite Simple Add/TC9/Ready to Export queue'))
 

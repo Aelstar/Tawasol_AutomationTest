@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -26,9 +26,16 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span_ _1'))
 
 WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/textarea_ _docSubject'), GlobalVariable.Book_Name)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-select_                                 _e3d27d'))
+boolean choosemaincorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Test suite Simple Add/TC4/Page_/Page_/input_concat(id(  input_279  ))_input_279'), 'داخلية')
+if (choosemaincorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/md-select_                                 _e3d27d'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Select main site Type in Simple Add TC1-1'))
+}
+
+WebUI.setText(findTestObject('Test suite Simple Add/TC1/Page_/input_concat(id(  input_268  ))_input_268'), 'داخلية')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC1/Page_/internal department'))
 
@@ -72,13 +79,27 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/click at book before
 
 WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/3 points in prepare'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'))
+boolean adddocumentfromprepare = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span__1_2'))
+if (adddocumentfromprepare == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Add Document from PrepareTC4-1'))
+}
+
+WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span__1_2'), FailureHandling.OPTIONAL)
 
 WebUI.uploadFile(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-icon_1_2'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-icon_en_action-green_1'))
+boolean savedocumentprepare = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-icon_en_action-green_1'), 
+    FailureHandling.OPTIONAL)
+
+if (savedocumentprepare == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-icon_en_action-green_1'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/save documentin prepare'))
+}
 
 WebUI.delay(3)
 
@@ -86,7 +107,14 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/click review')
 
 WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/3points in review'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/choose export from 3 points in review'))
+boolean exportfromreviewqueue = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC4/Page_/Page_/choose export from 3 points in review'), 
+    FailureHandling.OPTIONAL)
+
+if (exportfromreviewqueue == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/choose export from 3 points in review'))
+} else {
+    WebUI.click(findTestObject('Test suite Simple Add/Auto Button that changing in Simple Add/Export from Review TC4-1'))
+}
 
 Thread.sleep(7000)
 

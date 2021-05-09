@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Full Paper Outgoing Document then check all the mandatory fields appear in bold font then reject it from review queue then sent it to review from rejected queue after that accept it from review queue and finally launch from ready to send queue</description>
+   <name>TC-4</name>
+   <tag>18932</tag>
+   <comment></comment>
+   <testCaseGuid>aadff02d-d8cc-43a5-a63e-f59ade07a349</testCaseGuid>
+</TestCaseEntity>

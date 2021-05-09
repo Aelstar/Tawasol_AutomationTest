@@ -39,9 +39,25 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+boolean choosecorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+if (choosecorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+} else if (choosecorrespondingsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-2'))
+}
+
+boolean plusicontoaddcorrespondsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'), 
+    FailureHandling.OPTIONAL)
+
+if (plusicontoaddcorrespondsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/add corresponding site'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_'))
 
@@ -81,7 +97,14 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+boolean plusicontoaddcorrespondsite1 = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'), 
+    FailureHandling.OPTIONAL)
+
+if (plusicontoaddcorrespondsite1 == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/add corresponding site'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_'))
 

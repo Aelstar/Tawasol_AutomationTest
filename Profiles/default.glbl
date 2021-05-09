@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test Auto 102-1'</initValue>
+      <initValue>'Test Auto 075-1'</initValue>
       <name>Book_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

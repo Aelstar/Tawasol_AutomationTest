@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/md-dialog/md-dialog-content/div[1]/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[6]/div/button[4]/md-icon</value>
+         <value>/html/body/div[5]/md-dialog/md-dialog-content/div[1]/manage-attachment-directive/div/md-card/md-table-container/table/tbody/tr/td[7]/div/button[4]/md-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

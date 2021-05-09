@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Incoming from Simple Add then Launch it from quick action after that Create Reply as internal type &amp; link incoming as attachment</description>
+   <name>TC-1</name>
+   <tag>19001</tag>
+   <comment></comment>
+   <testCaseGuid>f6df1a04-5def-4523-b257-a946c5d3dad6</testCaseGuid>
+</TestCaseEntity>

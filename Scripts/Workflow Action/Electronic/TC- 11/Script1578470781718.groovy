@@ -40,9 +40,25 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+boolean choosecorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+if (choosecorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+} else if (choosecorrespondingsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-2'))
+}
+
+boolean plusiconadd = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'), 
+    FailureHandling.OPTIONAL)
+
+if (plusiconadd == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+} else {
+    WebUI.click(findTestObject('Workflow Action/Electronic/Auto Button that change in Work Floow/plus in advanced add correspondingsiteTC11-1'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_'))
 
@@ -123,7 +139,7 @@ WebUI.click(findTestObject('Workflow Action/Electronic/TC11/occordion of tags'))
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/Save button'))
 
-WebUI.doubleClick(findTestObject('Test suite Review and Prepare/Normal Add/Page_/double click for save button alert'))
+WebUI.doubleClick(findTestObject('Test suite Review and Prepare/Normal Add/Page_/double click for save button alert'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/No save button alert'))
 
@@ -149,7 +165,7 @@ WebUI.click(findTestObject('Test suite Simple Add/TC9/3points'))
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/t3del b3d el approve'))
 
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC11/double click at t3del b3d el approve popup'))
+WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC11/double click at t3del b3d el approve popup'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/yes t3del bed el approve popup'))
 
@@ -161,7 +177,7 @@ WebUI.setText(findTestObject('Workflow Action/Electronic/TC11/edit book again af
 
 WebUI.click(findTestObject('Workflow Action/Electronic/TC11/Save again after edit approve'))
 
-WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC12/double click at resave again td'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.doubleClick(findTestObject('Workflow Action/Electronic/TC12/double click at resave again td'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/No save button alert'))
 

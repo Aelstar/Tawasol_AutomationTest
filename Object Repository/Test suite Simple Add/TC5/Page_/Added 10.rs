@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[10]//md-calendar[@role='dialog']//md-calendar-month//md-virtual-repeat-container//table[@role='grid']/tbody[1]/tr[5]/td[6]/span[@class='md-calendar-date-selection-indicator']</value>
+         <value>//body/div[9]//md-calendar[@role='dialog']//md-calendar-month//md-virtual-repeat-container//table[@role='grid']/tbody[1]/tr[5]/td[6]/span[@class='md-calendar-date-selection-indicator']</value>
       </entry>
       <entry>
          <key>CSS</key>

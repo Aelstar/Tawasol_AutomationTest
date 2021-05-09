@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html//md-dialog-content[@id='dialogContent_ready-to-export-options']//form[@name='readyToExportOptionsForm']/div/div/div[3]/span[1]</value>
+         <value>//md-dialog[@id='ready-to-export-options']/md-toolbar[@class='_md _md-toolbar-transitions']//span[@class='md-truncate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

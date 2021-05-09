@@ -6,7 +6,15 @@
    <elementGuidId>efa66716-75f6-4021-9c8f-6f82dc73b44c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'إدارة مرفقات الكتاب : Test1811-1' or . = 'إدارة مرفقات الكتاب : Test1811-1')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
+         <value>/html/body/md-backdrop[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value>/html//md-dialog[@role='dialog']/md-toolbar[@class='_md _md-toolbar-transitions']//span[@class='md-truncate']</value>
       </entry>
    </selectorCollection>

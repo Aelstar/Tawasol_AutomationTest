@@ -77,34 +77,16 @@
       <testCaseId>Test Cases/Simple Add/TC-3</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d45884f3-d239-48ae-a277-bf0120e46b99</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4e00be5c-6ba5-4edb-9e14-59a7c0703132</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Simple Add/TC-9</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c05a8b7b-85e7-439e-aec5-f1f827c5b34a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>65a80be5-e690-4af8-b527-5172718e3e32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Simple Add/TC-10</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5811dc64-253a-4b26-9edd-bb9957dc84fb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Shared T.Cs/Go To Landing Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a0f5cf40-cfb6-4852-8360-1526d91d7d6a</guid>

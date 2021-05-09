@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[5]/md-select-menu[@role='presentation']//md-select-header//input[@placeholder='البحث']</value>
+         <value>//body/div[4]/md-select-menu[@role='presentation']//md-select-header//input[@placeholder='البحث']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

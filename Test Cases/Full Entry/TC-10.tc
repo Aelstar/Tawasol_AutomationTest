@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing document with multi signature template then check the approve action doesn't appears then launch it then edit content in [Arabic/English characters] then click on approve action after edit then check the changes will be saved</description>
+   <name>TC-10</name>
+   <tag>22820</tag>
+   <comment></comment>
+   <testCaseGuid>44055be6-e515-4d8e-ab8a-7a5f4a3730b3</testCaseGuid>
+</TestCaseEntity>

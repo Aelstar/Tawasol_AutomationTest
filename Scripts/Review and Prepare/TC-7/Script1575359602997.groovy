@@ -65,9 +65,25 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+boolean choosecorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+if (choosecorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+} else if (choosecorrespondingsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-2'))
+}
+
+boolean plusiconadd = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'), 
+    FailureHandling.OPTIONAL)
+
+if (plusiconadd == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+} else {
+    WebUI.click(findTestObject('Workflow Action/Electronic/Auto Button that change in Work Floow/plus in advanced add correspondingsiteTC11-1'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_'))
 

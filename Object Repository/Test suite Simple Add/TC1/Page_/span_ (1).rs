@@ -6,16 +6,19 @@
    <elementGuidId>e5e155b1-6f34-4a97-91d2-4937fb172502</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'إدارة تكنولوجيا المعلومات' or . = 'إدارة تكنولوجيا المعلومات')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[4]/md-select-menu/md-content/md-option</value>
+         <value>/html/body/md-virtual-repeat-container/div/div[2]/ul/li/md-autocomplete-parent-scope/span/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>md-virtual-repeat-container.md-virtual-repeat-container.md-autocomplete-suggestions-container.md-whiteframe-z1.md-orient-vertical.ng-hide div.md-virtual-repeat-scroller div.md-virtual-repeat-offsetter ul.md-autocomplete-suggestions li:nth-child(1) md-autocomplete-parent-scope:nth-child(1) span:nth-child(1) > span.highlight</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'إدارة تكنولوجيا المعلومات' or . = 'إدارة تكنولوجيا المعلومات')]</value>
+         <value>md-virtual-repeat-container.md-virtual-repeat-container.md-autocomplete-suggestions-container.md-whiteframe-z1.md-orient-vertical.ng-hide div.md-virtual-repeat-scroller div.md-virtual-repeat-offsetter ul.md-autocomplete-suggestions li:nth-child(1) md-autocomplete-parent-scope:nth-child(1) span:nth-child(1) > span.highlight
+//md-virtual-repeat-container[@role='presentation']/div[@role='presentation']//ul[@role='listbox']/li[@role='option']
+//body/div[4]/md-select-menu[@role='presentation']//md-option[@role='option']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

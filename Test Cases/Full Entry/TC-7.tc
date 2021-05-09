@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing document then click on new then add full outgoing document and  check the approve action appears then select it and verify the document appears in Ready to Export with full added data</description>
+   <name>TC-7</name>
+   <tag>22807</tag>
+   <comment></comment>
+   <testCaseGuid>e87aae16-4d9c-4b9e-a14c-4ba38319a50c</testCaseGuid>
+</TestCaseEntity>

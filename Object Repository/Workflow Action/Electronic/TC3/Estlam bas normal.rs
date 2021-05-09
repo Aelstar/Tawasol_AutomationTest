@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[3]/md-menu-content[@role='menu']/md-menu-item[4]//md-icon[@role='img']
-</value>
+         <value>//body/div[4]/md-menu-content[@role='menu']/md-menu-item[4]//md-icon[@role='img']</value>
       </entry>
       <entry>
          <key>BASIC</key>

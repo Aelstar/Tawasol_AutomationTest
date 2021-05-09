@@ -6,11 +6,11 @@
    <elementGuidId>214fca37-7ea3-4632-b395-a07df759d7f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[4]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[7]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/div[5]/md-dialog/md-dialog-content/div[1]/div/md-content/div[1]/div/div[3]/md-card/md-table-container/table/tbody/tr[1]/td[7]/div/vertical-menu-workflow-item-directive/div/button/md-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

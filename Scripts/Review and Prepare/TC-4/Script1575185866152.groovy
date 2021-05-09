@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Shared T.Cs/TC-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -39,9 +39,29 @@ WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+boolean choosecorrespondingsite = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+if (choosecorrespondingsite == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/span_ _1_2'))
+} else if (choosecorrespondingsite == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/choose corresponding site TC1-2'))
+}
+
+not_run: WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/md-icon_1_2'))
+
+boolean replusagain = WebUI.verifyElementClickable(findTestObject('Test suite Review and Prepare/TC6/re plus again for internal correspo'), 
+    FailureHandling.OPTIONAL)
+
+if (replusagain == true) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/TC6/re plus again for internal correspo'))
+} else if (replusagain == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Re Plus add corrsponding site Review and prepare TC6-1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Re Plus add corrsponding site Review and prepare TC6-2'))
+}
 
 WebUI.click(findTestObject('Test suite Review and Prepare/Normal Add/Page_/button_'))
 
@@ -84,9 +104,18 @@ WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/click at book before
 
 WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/3 points in prepare'))
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'))
+boolean AddDocument = WebUI.verifyElementClickable(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span__1_2'))
+if (AddDocument == true) {
+    WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/button__1_2'))
+} else if (AddDocument == false) {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Add Document content from prepare queue TC2 Reviewand prepare -1'))
+} else {
+    WebUI.click(findTestObject('Test suite Review and Prepare/Auto Button that changing/Add Document content from prepare queue TC2 Reviewand prepare -2'))
+}
+
+WebUI.click(findTestObject('Test suite Simple Add/TC4/Page_/Page_/span__1_2'), FailureHandling.OPTIONAL)
 
 WebUI.uploadFile(findTestObject('Test suite Simple Add/TC4/Page_/Page_/md-icon_1_2'), 'C:\\Ahmed\\EBLA\\EBLA Test.png')
 

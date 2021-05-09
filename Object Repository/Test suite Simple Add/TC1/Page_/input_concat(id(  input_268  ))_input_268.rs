@@ -6,15 +6,15 @@
    <elementGuidId>e3ef3e4d-119f-4327-9da3-3ef1b99eed8d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'البحث' and @id = 'input_268']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[3]/md-select-menu[1]/md-content[1]/md-select-header[1]/input[1]</value>
+         <value>/html/body/div[4]/md-select-menu/md-content/md-select-header/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@placeholder = 'البحث' and @id = 'input_268']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

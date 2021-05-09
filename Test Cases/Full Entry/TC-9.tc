@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add electronic outgoing document without content then check the approve action/approve and export doesn't appears</description>
+   <name>TC-9</name>
+   <tag>22812</tag>
+   <comment></comment>
+   <testCaseGuid>c6884bf5-3578-4707-b9e3-d7f070a58e5c</testCaseGuid>
+</TestCaseEntity>
